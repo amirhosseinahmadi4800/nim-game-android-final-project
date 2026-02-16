@@ -39,7 +39,7 @@ public class Developer extends AppCompatActivity {
                         "این بازی توسط امیرحسین احمدی، دانشجوی کارشناسی مهندسی کامپیوتر " +
                         "دانشگاه شهید چمران اهواز ساخته شده است.\n\n" +
                         "📞 راه‌های ارتباط با توسعه‌دهنده:\n" +
-                        "شماره تماس: 09167844800\n" +
+                        "شماره تماس: \n" +
                         "آیدی تلگرام: @chillamirx";
 
         enText =
@@ -48,7 +48,7 @@ public class Developer extends AppCompatActivity {
                         "a Bachelor's student in Computer Engineering at " +
                         "Shahid Chamran University of Ahvaz.\n\n" +
                         "📞 Contact Information:\n" +
-                        "Phone Number: +98 916 784 4800\n" +
+                        "Phone Number: \n" +
                         "Telegram ID: @chillamirx";
 
         arText =
@@ -57,7 +57,7 @@ public class Developer extends AppCompatActivity {
                         "طالب بكالوريوس هندسة الحاسوب في " +
                         "جامعة شهيد جمران في الأهواز.\n\n" +
                         "📞 وسائل التواصل مع المطوّر:\n" +
-                        "رقم الهاتف: 09167844800\n" +
+                        "رقم الهاتف: \n" +
                         "معرّف تيليغرام: @chillamirx";
 
         // ست کردن adapter برای اسپینر
