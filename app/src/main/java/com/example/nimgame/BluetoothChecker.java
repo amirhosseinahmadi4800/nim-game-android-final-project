@@ -473,7 +473,7 @@ public class BluetoothChecker extends AppCompatActivity {
                 startBluetoothAfterPermission();
             } else {
                 Toast.makeText(this,
-                        "برای اجرای بازی باید دسترسی بلوتوث فعال باشد",
+                        "برای اجرای بازی باید دسترسی بلوتوث  فعال باشد",
                         Toast.LENGTH_LONG).show();
             }
         } else if (requestCode == REQUEST_LOCATION_PERMISSION) {
