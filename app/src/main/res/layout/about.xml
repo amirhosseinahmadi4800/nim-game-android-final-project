@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="505dp"
+        android:layout_height="767dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427"
+        app:srcCompat="@drawable/chatgpt_image_dec_26__2025__10_10_26_pm" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="336dp"
+        android:layout_height="521dp"
+        android:layout_margin="24dp"
+
+        android:fontFamily="@font/black"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp"
+        android:text="🎮 معرفی بازی معکوس 🎮 Nim\n\nبازی Nim معکوس یک بازی فکری و استراتژیکه که بین دو بازیکن انجام می‌شه. در این بازی چند تا ردیف چوب کبریت وجود داره و هر بازیکن در نوبت خودش می‌تونه از 1 تا 4  چوب کبریت، فقط از یکی از ردیف‌ها برداره.\n\n❗ قانون اصلی:\nبرنده در این بازی کسیه که آخرین چوب کبریت را برندارد! یعنی هر بازیکنی که مجبور بشه آخرین چوب کبریت روی زمین رو برداره، بازنده حساب می‌شه.\n\n🎯 هدف بازی:\nطوری چوب کبریت بردار که حریف در نهایت مجبور بشه آخرین چوب کبریت  را برداره. 	 "
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_spinner"
+        android:elevation="6dp"
+        android:popupBackground="#FFFFFF"
+        android:spinnerMode="dropdown"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goBack"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/icons8_back_100__1_" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

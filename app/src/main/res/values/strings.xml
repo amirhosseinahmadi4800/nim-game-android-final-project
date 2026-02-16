@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">nim game</string>
+      <string-array name="languages">
+        <item>فارسی</item>
+        <item>English</item>
+        <item>عربی</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- رنگ تیره‌تر برای کنتراست بهتر -->
+    <solid android:color="#5D4037"/>
+
+    <!-- گوشه‌های گرد -->
+    <corners android:radius="25dp"/>
+
+    <!-- حاشیه روشن -->
+    <stroke
+        android:width="2dp"
+        android:color="#D7CCC8"/>
+
+    <!-- کمی سایه داخلی حس کارت بده -->
+    <padding
+        android:left="6dp"
+        android:top="6dp"
+        android:right="6dp"
+        android:bottom="6dp"/>
+
+</shape>
